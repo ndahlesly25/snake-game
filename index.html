@@ -14,19 +14,30 @@
 
     <div class="info">
       <p><strong>Score:</strong> <span id="score">0</span></p>
+      <p><strong>Highest Score:</strong> <span id="highScore">0</span></p>
+
       <button id="startBtn">Start Game</button>
+      <button id="pauseBtn" onclick="togglePause()">Pause</button>
     </div>
 
-    <div class="touch-controls">
-  <button onclick="changeDirection('up')">⬆️</button>
+    <div class="mobile-controls">
+  <button onclick="setDirection('UP')">⬆️</button>
   <div>
-    <button onclick="changeDirection('left')">⬅️</button>
-    <button onclick="changeDirection('down')">⬇️</button>
-    <button onclick="changeDirection('right')">➡️</button>
+    <button onclick="setDirection('LEFT')">⬅️</button>
+    <button onclick="setDirection('DOWN')">⬇️</button>
+    <button onclick="setDirection('RIGHT')">➡️</button>
   </div>
 </div>
 
+</div>
+
   </div>
+
+
+<audio id="eatSound" src="sounds/eat.mp3" preload="auto"></audio>
+<audio id="gameOverSound" src="sounds/gameover.mp3" preload="auto"></audio>
+<audio id="clickSound" src="sounds/click.mp3" preload="auto"></audio>
+
 
   <footer class="site-footer">
   <div class="footer-content">

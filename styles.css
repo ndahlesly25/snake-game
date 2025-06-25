@@ -1,7 +1,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
-  background-color: #e3f2fd;
+  background-color: #071e2e;
   margin: 0;
   padding: 20px;
 }
@@ -19,14 +19,19 @@ h1 {
 }
 
 canvas {
-  background-color: #ffffff;
+  background-color: black;
   border: 2px solid #4caf50;
   width: 100%;
   max-width: 400px;
   height: auto;
 }
 
+#score {
+  color: white;
+}
+
 .info {
+  color: white;
   margin-top: 10px;
   font-size: 1.2rem;
 }
@@ -46,24 +51,24 @@ button:hover {
 }
 
 
-.touch-controls {
-  margin-top: 15px;
+.mobile-controls {
   text-align: center;
+  margin-top: 20px;
 }
 
-.touch-controls button {
+.mobile-controls button {
   font-size: 24px;
   margin: 5px;
-  padding: 10px 20px;
-  border: none;
-  background-color: #4CAF50;
-  color: white;
+  padding: 10px 15px;
   border-radius: 8px;
+  background: #0dc968;
+  color: white;
+  border: none;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
-.touch-controls button:hover {
+
+.mobile-controls button:hover {
   background-color: #45a049;
 }
 
