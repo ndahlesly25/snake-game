@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background-color: #e3f2fd;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #2e7d32;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+canvas {
+  background-color: #ffffff;
+  border: 2px solid #4caf50;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.info {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #43a047;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2e7d32;
+}
+
+
+.touch-controls {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.touch-controls button {
+  font-size: 24px;
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.touch-controls button:hover {
+  background-color: #45a049;
+}
+
+
+
+.site-footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+.site-footer .social-icons {
+  margin-top: 10px;
+}
+
+.site-footer .social-icons a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-footer .social-icons a:hover {
+  text-decoration: underline;
+}
+

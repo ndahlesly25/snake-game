@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🐍 Snake Game</h1>
+
+  <div class="game-container">
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+    <div class="info">
+      <p><strong>Score:</strong> <span id="score">0</span></p>
+      <button id="startBtn">Start Game</button>
+    </div>
+
+    <div class="touch-controls">
+  <button onclick="changeDirection('up')">⬆️</button>
+  <div>
+    <button onclick="changeDirection('left')">⬅️</button>
+    <button onclick="changeDirection('down')">⬇️</button>
+    <button onclick="changeDirection('right')">➡️</button>
+  </div>
+</div>
+
+  </div>
+
+  <footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Muluh Ndah Awa Lesly. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#" target="_blank">LinkedIn</a>
+      <a href="#" target="_blank">Twitter</a>
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
